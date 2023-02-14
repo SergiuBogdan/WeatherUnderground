@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Our Weather application will enable you to plan your journeys with ease.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Underground</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/apple-touch-icon.png">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css">
+  </head>
+  <body>
+    <header class="header sticky">
+      <a href="#">
+        <img class="logo" src="./img/weatherUnderground-logo.png" alt="WeatherUnderground" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#forecast">Weather Forecast</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#pricing">Try Premium</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Check your weather every day, with us! Your daily forecasts!
+            </h1>
+            <p class="hero-description">
+              Get real-time weather updates and stay ahead of the game with our reliable and accurate weather app.
+               With up-to-date information, you'll never be caught off guard by sudden changes in weather. 
+              Plan your day with confidence and stay one step ahead of Mother Nature.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >How did you hear from us!</a
+            >
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-app">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>1250+</span> clients in the last year 
+              </p>
+            </div>
+          </div>
+          <div class="hero-image-box">
+            <img
+              src="img/hero.png"
+              class="hero-img"
+              alt="name"
+            />
+          </div>
+        </div>
+      </section>
+
+     
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How Weather Underground works</span>
+          <h2 class="heading-secondary">
+              We strive to give you the most accurate weather possible.
+          </h2>
+        </div>
+        <div class="container grid grid--2--cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Our radars are placed all around Romania</h3>
+            <p class="step-description">
+              Get real-time weather updates and accurate forecasts with our app. 
+              Stay ahead of the game and never be caught off guard by unexpected weather changes.
+               Stay prepared, stay informed and always stay one step ahead with our weather app.
+            </p>
+          </div>
+          <div class="step-image-box">
+            <img
+              class="step-img"
+              src="img/app/app-screen-1.png"
+              alt="Application preview"
+            />
+          </div>
+
+          <div class="step-image-box">
+            <img
+              class="step-img"
+              src="img/app/app-screen-2.png"
+              alt="Application preview"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Forecasts for up to 14 days in advance</h3>
+            <p class="step-description">
+             Our forecasts is AI driven, and with the latest tehnologies we can predict weather with 90% accuracy
+            </p>
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Receive important notifications on your mobile phone.</h3>
+            <p class="step-description">
+              Our dedicated and highly skilled team of meteorologists use the latest technology to bring you accurate and up-to-date weather information.
+               Trust us to provide you with the essential weather insights you need to plan your day, and always stay ahead of the weather.
+            </p>
+          </div>
+          <div class="step-image-box">
+            <img
+              class="step-img"
+              src="img/app/app-screen-3.png"
+              alt="Application preview"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features" id="forecast">
+        <div class="container center--text">
+          <span class="subheading">Weather Application</span>
+          <h2 class="heading-secondary">
+            Some of the features of our Weather Application
+          </h2>
+        </div>
+        <din class="container grid grid--3-cols margin-bottom-md">
+          <div class="app">
+            <img
+              class="app-img"
+              src="./img/mobileapp/app-1.jpg"
+              alt="Mobile app"
+            />
+
+
+            <div class="app-content">
+              <div class="app-tags">
+                <span class="tag">IOS - Android</span>
+              </div>
+              <p class="app-title">Weather App</p>
+              <ul class="app-attributes">
+                <li class="app-attribute">
+                  
+                  <span><strong>High</strong> performance</span>
+                </li>
+                <li class="app-attribute">
+              
+                  <span> App Store Score &reg; <strong>5</strong></span>
+                </li>
+                <li class="app-attribute">
+                
+                  <span> <strong>5 rating</strong> (946)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="app">
+            <img
+              class="app-img"
+              src="./img/mobileapp/app-2.jpg"
+              alt="mobile app"
+            />
+
+
+            <div class="app-content">
+              <div class="container--app-tags">
+                <div class="app-tags">
+                  <span class="tag tag--wind">Windows</span>
+                </div>
+                <div class="app-tags">
+                  <span class="tag tag--mac">Mac</span>
+                </div>
+              </div>
+              <p class="app-title">www.weatherapp.ro</p>
+              <ul class="app-attributes">
+                <li class="app-attribute">
+                 
+                  <span><strong>600</strong> visits per day.</span>
+                </li>
+                <li class="app-attribute">
+                
+                  <span> Store Score &reg; <strong>92</strong></span>
+                </li>
+                <li class="app-attribute">
+                  
+                  <span> <strong>4.9 rating</strong> (854)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="grids-main">
+            <h3 class="heading-tertiary">Build with the latest web tehnologies:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> HTML5 </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> CSS3 </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> Javascript </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> React </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> Axios</span>
+              </li>
+              <h3 class="heading-tertiary">Optimizations:</h3>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> Compatibility with all browsers </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> Optimized for mobile first </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> High performance</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> User friendly</span>
+              </li>
+            </ul>
+          </div>
+        </din>
+        <div class="container all-apps">
+          <a class="link" href="#">See you on the top &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try our weather app, you cannot go back.</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/chris.jpg"
+                alt="Chris, this app changed my life"
+              />
+              <blockquote class="testimonial-text">
+                I never leave home without checking the weather on the app!
+                 It's always accurate and gives me all the information I need to plan my day.
+                 Thank you for making such a reliable weather app.
+              </blockquote>
+              <p class="testimonial-name">&mdash; George Morariu</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/galgadot.jpg"
+                alt="Gal Gadot, i would never switch to another app"
+              />
+              <blockquote class="testimonial-text">
+                I love the real-time updates and the customizable notifications.
+                 It keeps me informed and helps me stay one step ahead of the weather.
+                  Highly recommend it!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Cristina Alexandra</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/evans.jpg"
+                alt="Evans, i can do this all day"
+              />
+              <blockquote class="testimonial-text">
+                As a farmer, I rely on accurate weather information to make important decisions.
+                 Our weather app has been a lifesaver,
+                 providing me with up-to-date and trustworthy data. Thank you!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Cristi Milasan</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/tom.jpg"
+                alt="Reacher, John Reacher"
+              />
+              <blockquote class="testimonial-text">
+                I used to rely on traditional weather sources, but since switching to our weather app,
+                 I've never been more confident in my weather predictions.
+                 The user-friendly interface and detailed forecasts make it my go-to weather source.
+              </blockquote>
+              <p class="testomonial-name">&mdash; Cristian Iulian</p>
+            </figure>
+          </div>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/metestation.jpg"
+              alt="meteorologic station"
+            />
+
+          </figure>
+          
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Start using our premium services !
+          </h2>
+        </div>
+
+        <div class="container grid grid--2--cols">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Free Plan</p>
+              <p class="plan-price"><span></span>Free</p>
+              <p class="plan-text">-you can use the app forever.</p>
+            </header>
+              <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon " name="checkmark-outline"></ion-icon
+                ><span> With Adds </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> Up to 3 days forecast</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon close-outline" name="close-outline"></ion-icon
+                ><span>Push notifications</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon close-outline" name="close-outline"></ion-icon><span>Integration with Alexa and Siri</span>
+              </li>
+            </ul>
+            <div class="plan-signup">
+              <a href="#" class="btn btn--full">Start for free</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Premium</p>
+              <p class="plan-price"><span>$</span>5</p>
+              <p class="plan-text">per month. You can enjoy all our features.</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                  ><span> <strong>NO</strong> adds</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                    ><span> Up to 14 days forecast</span>
+                  </li>
+                  <li class="list-item">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                      ><span>Push notifications</span>
+                    </li>
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                      ><span>Integration with Alexa and Siri</span>
+                    </li>
+                  </ul>
+                  <div class="plan-signup">
+                    <a href="#" class="btn btn--full">Start your journey</a>
+                  </div>
+                </div>   
+              </section>
+              <div class="container">
+                <aside class="plan-details margin-bottom-md">
+                  Prices include all applicable taxes. Users can cancel at any time. Both plans include the following:
+                </aside>
+              </div>
+
+              <section class="section-cta" id="cta">
+                <div class="container">
+                  <div class="cta">
+                    <div class="cta-text-box">
+                      <h2 class="heading-secondary">
+                        Tell us more about your experience with our app.
+                      </h2>
+   
+
+                      <form class="cta-form" action="#">
+                        <div>
+                          <label for="full-name">Full Name</label>
+                          <input id="full-name" type="text" placeholder="Your Name" required>
+                        </div>
+
+                        <div>
+                          <label for="email">Email Address</label>
+                          <input id="email" type="text" placeholder="me@xample.com" required/>
+                        </div>
+
+                        <div>
+                          <label for="select-where">Where did  you hear about us?</label>
+                          <select id="select-where" required>
+                            <option value="">Please choose one option</option>
+                            <option value="friends">Friends and family</option>
+                            <option value="youtube">YouTube Video</option>
+                            <option value="podcast">Podcast</option>
+                            <option value="others">Other</option>
+                          </select>
+                        </div>
+
+                        <button class="btn btn--form">Sign up now</button>
+                      </form>
+                    </div>
+                    <div class="cta-img-box" role="img" aria-label="woman enjoying food"></div>
+                  </div>
+                </div>
+              </section>
+              
+    </main>
+
+      <footer>
+        <div class="container grid grid--5-cols">
+          <div class="logo-col">
+            <a href="#" class="footeer-logo">
+            <img class="footer-logo logo" src="./img/weatherUnderground-logo.png" alt="Wu Logo" />
+          </a>
+          <ul class="social-links">
+            <li><ion-icon class="social-logo" name="logo-facebook"></ion-icon></li>
+            <li><ion-icon class="social-logo" name="logo-instagram"></ion-icon></li>
+            <li><ion-icon class="social-logo" name="logo-twitter"></ion-icon></li>
+          </ul>
+          
+        </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <div class="address">
+                <p>Bl.2, Ap.20</p>
+                <p>Targu Mures, Gheorghe Doja nr.2</p>
+              </div>
+              <p><a class="footer-link" href="#">tel: 0741339533</a></p>
+              <p><a class="footer-link" href="#">mailto:sergiu.bogdan09@yahoo.com</a></p>
+            </address>
+          </div>
+          <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#"> Create account</a></li>
+            <li><a class="footer-link" href="#"> Sign in</a></li>
+            <li><a class="footer-link" href="#"> iOS App</a></li>
+            <li><a class="footer-link" href="#"> Android app</a></li>
+          </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#"> About Weather Underground</a></li>
+              <li><a class="footer-link" href="#"> For Business</a></li>
+              <li><a class="footer-link" href="#"> Our Partners</a></li>
+              <li><a class="footer-link" href="#"> Careers</a></li>
+            </ul>
+            </nav>
+
+            <nav class="nav-col">
+              <p class="footer-heading">Resources</p>
+              <ul class="footer-nav">
+                <li><a class="footer-link" href="#"> Meteorologic Department</a></li>
+                <li><a class="footer-link" href="#"> Help Center</a></li>
+                <li><a class="footer-link" href="#"> Privacy & Terms</a></li>
+              </ul>
+              </nav>
+        </div>
+      </footer>
+  </body>
+</html>
